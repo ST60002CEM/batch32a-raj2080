@@ -1,22 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:login_signup/screens/welcome_screen.dart';
-import 'package:login_signup/theme/theme.dart';
-
+import 'package:final_assignment/app/app.dart';
 void main() {
-  runApp(const MyApp());
+  runApp(
+    const App(),
+  );
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
-
-  // This widget is the root of your application.
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      title: 'Flutter Demo',
-      theme: lightMode,
-      home: const WelcomeScreen(),
-    );
-  }
-}

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:icons_plus/icons_plus.dart';
-import 'package:login_signup/screens/signup_screen.dart';
-import 'package:login_signup/widgets/custom_scaffold.dart';
+import 'package:final_assignment/screens/signup_screen.dart';
+import 'package:final_assignment/widgets/custom_scaffold.dart';
 
 import '../theme/theme.dart';
 

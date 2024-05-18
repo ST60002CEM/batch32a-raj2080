@@ -1,5 +1,5 @@
-import 'package:login_signup/screens/welcome_screen.dart';
-import 'package:login_signup/theme/theme.dart';
+import 'package:final_assignment/screens/welcome_screen.dart';
+import 'package:final_assignment/theme/theme.dart';
 
 
 import 'package:flutter/material.dart';
