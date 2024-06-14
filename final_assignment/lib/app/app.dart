@@ -13,7 +13,8 @@ class App extends StatelessWidget {
       // themes
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
-      theme: lightMode,
+      theme: getApplicationTheme(),
+
       home: WelcomeScreen(),
     );
   }
