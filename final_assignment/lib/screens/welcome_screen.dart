@@ -44,18 +44,13 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
                   text: const TextSpan(
                     children: [
                       TextSpan(
-                          text: 'Welcome Back!\n',
+                          text: 'Shop Online\n',
                           style: TextStyle(
                             fontSize: 45.0,
                             fontWeight: FontWeight.w600,
+                            color: Colors.black
                           )),
-                      TextSpan(
-                          text:
-                          '\n Shop freely',
-                          style: TextStyle(
-                            fontSize: 20,
-                            // height: 0,
-                          ))
+
                     ],
                   ),
                 ),
@@ -67,19 +62,19 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
             alignment: Alignment.bottomRight,
             child: Row(
               children: [
-                const Expanded(
+                 Expanded(
                   child: WelcomeButton(
-                    buttonText: 'Sign in',
+                    buttonText: 'Login',
                     onTap: SignInScreen(),
                     color: Colors.transparent,
-                    textColor: Colors.white,
+                    textColor: lightColorScheme.primary,
                   ),
                 ),
                 Expanded(
                   child: WelcomeButton(
                     buttonText: 'Sign up',
                     onTap: const SignUpScreen(),
-                    color: Colors.white,
+                    color: Colors.transparent,
                     textColor: lightColorScheme.primary,
                   ),
                 ),

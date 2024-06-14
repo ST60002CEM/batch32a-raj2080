@@ -60,3 +60,28 @@ ThemeData darkMode = ThemeData(
   brightness: Brightness.dark,
   colorScheme: darkColorScheme,
 );
+
+
+ThemeData getApplicationTheme() {
+  return ThemeData(
+    primarySwatch: Colors.orange,
+    scaffoldBackgroundColor: Colors.grey[200],
+    fontFamily: 'Montserrat Bold Italic',
+
+    elevatedButtonTheme: ElevatedButtonThemeData(
+      style: ElevatedButton.styleFrom(
+        textStyle: const TextStyle(
+            fontSize: 18,
+            color: Colors.white,
+            fontWeight: FontWeight.w500,
+            fontFamily: 'OpenSans Regular'),
+        backgroundColor: Colors.white,
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(5),
+        ),
+
+      ),
+
+    ),
+  );
+}
