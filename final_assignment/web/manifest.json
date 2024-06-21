@@ -1,6 +1,6 @@
 {
-    "name": "final_assignment",
-    "short_name": "final_assignment",
+    "name": "food_del",
+    "short_name": "food_del",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

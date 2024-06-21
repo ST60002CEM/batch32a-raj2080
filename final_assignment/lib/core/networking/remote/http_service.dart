@@ -1,7 +1,7 @@
 import 'package:dio/dio.dart';
+import 'package:Cshop/app/constants/api_endpoint.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:pretty_dio_logger/pretty_dio_logger.dart';
-import 'package:student_management_starter/app/constants/api_endpoint.dart';
 
 import 'dio_error_interceptor.dart';
 
@@ -16,7 +16,7 @@ class HttpService {
 
   HttpService(this._dio) {
     _dio
-      ..options.baseUrl = ApiEndpoints.baseUrl
+      ..options.baseUrl = ApiEndpoints.baseUrls
       ..options.connectTimeout = ApiEndpoints.connectionTimeout
       ..options.receiveTimeout = ApiEndpoints.receiveTimeout
       ..interceptors.add(DioErrorInterceptor())
