@@ -1,6 +1,6 @@
-import 'package:Cshop/app/navigator_key/navigator_key.dart';
-import 'package:Cshop/app/themes/app_theme.dart';
-import 'package:Cshop/features/splash/presentation/view/splash_view.dart';
+import 'package:cshop/app/navigator_key/navigator_key.dart';
+import 'package:cshop/app/themes/app_theme.dart';
+import 'package:cshop/features/splash/presentation/view/splash_view.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 

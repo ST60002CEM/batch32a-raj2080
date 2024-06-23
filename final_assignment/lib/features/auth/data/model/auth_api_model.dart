@@ -1,4 +1,4 @@
-import 'package:Cshop/features/auth/domain/entity/auth_entity.dart';
+import 'package:cshop/features/auth/domain/entity/auth_entity.dart';
 import 'package:json_annotation/json_annotation.dart';
 
 part 'auth_api_model.g.dart';

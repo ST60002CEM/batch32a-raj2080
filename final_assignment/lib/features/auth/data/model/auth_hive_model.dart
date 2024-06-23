@@ -1,5 +1,5 @@
-import 'package:Cshop/app/constants/hive_table_constant.dart';
-import 'package:Cshop/features/auth/domain/entity/auth_entity.dart';
+import 'package:cshop/app/constants/hive_table_constant.dart';
+import 'package:cshop/features/auth/domain/entity/auth_entity.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'package:uuid/uuid.dart';

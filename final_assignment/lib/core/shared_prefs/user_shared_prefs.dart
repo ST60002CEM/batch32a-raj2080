@@ -1,5 +1,5 @@
 import 'package:dartz/dartz.dart';
-import 'package:Cshop/core/failure/failure.dart';
+import 'package:cshop/core/failure/failure.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 

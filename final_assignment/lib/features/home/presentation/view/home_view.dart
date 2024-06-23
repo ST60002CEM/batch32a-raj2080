@@ -1,5 +1,5 @@
-import 'package:Cshop/features/home/presentation/view/bottom_view/dashboard_view.dart';
-import 'package:Cshop/features/home/presentation/view/bottom_view/profile_view.dart';
+import 'package:cshop/features/home/presentation/view/bottom_view/dashboard_view.dart';
+import 'package:cshop/features/home/presentation/view/bottom_view/profile_view.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 

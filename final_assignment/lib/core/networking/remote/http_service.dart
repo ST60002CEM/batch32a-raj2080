@@ -1,5 +1,5 @@
 import 'package:dio/dio.dart';
-import 'package:Cshop/app/constants/api_endpoint.dart';
+import 'package:cshop/app/constants/api_endpoint.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:pretty_dio_logger/pretty_dio_logger.dart';
 

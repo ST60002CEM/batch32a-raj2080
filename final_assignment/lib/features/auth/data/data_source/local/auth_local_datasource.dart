@@ -1,8 +1,8 @@
 import 'package:dartz/dartz.dart';
-import 'package:Cshop/core/failure/failure.dart';
-import 'package:Cshop/core/networking/local/hive_service.dart';
-import 'package:Cshop/features/auth/data/model/auth_hive_model.dart';
-import 'package:Cshop/features/auth/domain/entity/auth_entity.dart';
+import 'package:cshop/core/failure/failure.dart';
+import 'package:cshop/core/networking/local/hive_service.dart';
+import 'package:cshop/features/auth/data/model/auth_hive_model.dart';
+import 'package:cshop/features/auth/domain/entity/auth_entity.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 final authLocalDataSourceProvider = Provider(

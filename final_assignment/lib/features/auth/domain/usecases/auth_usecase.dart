@@ -1,9 +1,9 @@
 import 'dart:io';
 
 import 'package:dartz/dartz.dart';
-import 'package:Cshop/core/failure/failure.dart';
-import 'package:Cshop/features/auth/domain/entity/auth_entity.dart';
-import 'package:Cshop/features/auth/domain/repository/auth_repository.dart';
+import 'package:cshop/core/failure/failure.dart';
+import 'package:cshop/features/auth/domain/entity/auth_entity.dart';
+import 'package:cshop/features/auth/domain/repository/auth_repository.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 final authUseCaseProvider = Provider((ref) {

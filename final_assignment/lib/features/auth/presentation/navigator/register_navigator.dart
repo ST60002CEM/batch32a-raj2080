@@ -1,5 +1,5 @@
-import 'package:Cshop/app/navigator/navigator.dart';
-import 'package:Cshop/features/auth/presentation/view/register_view.dart';
+import 'package:cshop/app/navigator/navigator.dart';
+import 'package:cshop/features/auth/presentation/view/register_view.dart';
 
 //route
 class RegisterViewNavigator {}

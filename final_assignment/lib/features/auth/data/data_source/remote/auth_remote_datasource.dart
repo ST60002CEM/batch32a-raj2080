@@ -2,11 +2,11 @@ import 'dart:io';
 
 import 'package:dartz/dartz.dart';
 import 'package:dio/dio.dart';
-import 'package:Cshop/app/constants/api_endpoint.dart';
-import 'package:Cshop/core/failure/failure.dart';
-import 'package:Cshop/core/networking/remote/http_service.dart';
-import 'package:Cshop/core/shared_prefs/user_shared_prefs.dart';
-import 'package:Cshop/features/auth/domain/entity/auth_entity.dart';
+import 'package:cshop/app/constants/api_endpoint.dart';
+import 'package:cshop/core/failure/failure.dart';
+import 'package:cshop/core/networking/remote/http_service.dart';
+import 'package:cshop/core/shared_prefs/user_shared_prefs.dart';
+import 'package:cshop/features/auth/domain/entity/auth_entity.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 final authRemoteDataSourceProvider = Provider(

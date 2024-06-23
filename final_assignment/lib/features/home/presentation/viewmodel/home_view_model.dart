@@ -1,5 +1,5 @@
-import 'package:Cshop/core/common/my_snackbar.dart';
-import 'package:Cshop/features/home/presentation/navigator/home_view_navigator.dart';
+import 'package:cshop/core/common/my_snackbar.dart';
+import 'package:cshop/features/home/presentation/navigator/home_view_navigator.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 

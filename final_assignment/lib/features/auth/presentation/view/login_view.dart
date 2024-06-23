@@ -1,4 +1,4 @@
-import 'package:Cshop/features/auth/presentation/viewmodel/auth_view_model.dart';
+import 'package:cshop/features/auth/presentation/viewmodel/auth_view_model.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
@@ -42,7 +42,7 @@ class _LoginViewState extends ConsumerState<LoginView> {
                     controller: _usernameController,
                     decoration: InputDecoration(
                       labelText: 'Email',
-                      hintText: 'anuj@gmail.com',
+                      hintText: 'rajoli@gmail.com',
                       prefixIcon: const Icon(Icons.account_circle),
                       border: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(12),

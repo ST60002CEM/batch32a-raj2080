@@ -1,10 +1,10 @@
 import 'dart:io';
 
-import 'package:Cshop/core/common/my_snackbar.dart';
-import 'package:Cshop/features/auth/domain/entity/auth_entity.dart';
-import 'package:Cshop/features/auth/domain/usecases/auth_usecase.dart';
-import 'package:Cshop/features/auth/presentation/navigator/login_navigator.dart';
-import 'package:Cshop/features/auth/presentation/state/auth_state.dart';
+import 'package:cshop/core/common/my_snackbar.dart';
+import 'package:cshop/features/auth/domain/entity/auth_entity.dart';
+import 'package:cshop/features/auth/domain/usecases/auth_usecase.dart';
+import 'package:cshop/features/auth/presentation/navigator/login_navigator.dart';
+import 'package:cshop/features/auth/presentation/state/auth_state.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 

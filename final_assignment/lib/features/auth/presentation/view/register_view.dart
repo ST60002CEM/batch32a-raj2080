@@ -1,7 +1,7 @@
 import 'dart:io';
 
-import 'package:Cshop/features/auth/domain/entity/auth_entity.dart';
-import 'package:Cshop/features/auth/presentation/viewmodel/auth_view_model.dart';
+import 'package:cshop/features/auth/domain/entity/auth_entity.dart';
+import 'package:cshop/features/auth/presentation/viewmodel/auth_view_model.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:image_picker/image_picker.dart';

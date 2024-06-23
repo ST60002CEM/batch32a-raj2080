@@ -1,4 +1,4 @@
-import 'package:Cshop/features/auth/presentation/navigator/login_navigator.dart';
+import 'package:cshop/features/auth/presentation/navigator/login_navigator.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 final splashViewNavigatorProvider =

@@ -1,4 +1,4 @@
-import 'package:Cshop/app/constants/theme_constant.dart';
+import 'package:cshop/app/constants/theme_constant.dart';
 import 'package:flutter/material.dart';
 
 class AppTheme {
