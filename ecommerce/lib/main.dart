@@ -1,15 +1,18 @@
-import 'package:cshop/app/app.dart';
-import 'package:cshop/core/networking/local/hive_service.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-void main() async {
+import 'core/app.dart';
+import 'core/network/local/hive_service.dart';
+
+void main() {
   WidgetsFlutterBinding.ensureInitialized();
-  await HiveService().init();
+  HiveService().init();
 
   runApp(
     const ProviderScope(
       child: App(),
     ),
   );
+  SystemChrome.setEnabledSystemUIMode(SystemUiMode.manual, overlays: []);
 }

@@ -1,4 +1,4 @@
-# ecommerce
+# tripplanner
 
 A new Flutter project.
 
